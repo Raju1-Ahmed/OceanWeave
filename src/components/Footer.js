@@ -76,18 +76,6 @@ const Footer = () => {
         Ashulia, Savar, Dhaka-1345 <br />
         Bangladesh
       </span>
-    </li> <p className="font-bold text-base">Kamrul Hasan</p>
-    <li className="flex items-center gap-2">
-      <FaPhone className="text-blue-300" /> 
-      <a href="tel:+8801711123681" className="hover:underline">
-        +88 0171-1123681
-      </a>
-    </li>
-    <li className="flex items-center gap-2">
-      <FaEnvelope className="text-blue-300" /> 
-      <a href="mailto:info@oceanwave.com.bd" className="hover:underline">
-        sany@oceanwave.com.bd
-      </a>
     </li>
   </ul>
 </div>

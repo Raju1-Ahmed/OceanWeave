@@ -5,6 +5,7 @@ import ContractPage from './Pages/Contracts/ContactPage';
 import About from './Pages/About';
 import ProductionPage from './Pages/Products/ProductionPage';
 import Footer from './components/Footer';
+import SEO from './components/SEO';
 import Kids from './Pages/Products/Kids';
 import Womenswear from './Pages/Products/Womenswear';
 import Men from './Pages/Products/Men';
@@ -17,6 +18,7 @@ import Nightwear from './Pages/Products/Nightwear';
 function App() {
   return (
     <BrowserRouter>
+    <SEO />
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />

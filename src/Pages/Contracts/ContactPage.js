@@ -102,24 +102,6 @@ const ContactPage = () => {
               Niyat Salimplaza, Bolivadra Bazar <br />
               Ashulia, Savar, Dhaka-1345
             </p>
-            <p> <p className="font-semibold">Kamrul Hasan</p>
-              📞{" "}
-              <a
-                href="tel:+8801711123681"
-                className="text-blue-700 hover:underline"
-              >
-                +88 0171-1123681
-              </a>
-            </p>
-            <p>
-              📧{" "}
-              <a
-                href="mailto:info@oceanwave.com.bd"
-                className="text-blue-700 hover:underline"
-              >
-                sany@oceanwave.com.bd
-              </a>
-            </p>
             <button
               onClick={() =>
                 setShowMap((prev) => ({ ...prev, bd: !prev.bd }))
